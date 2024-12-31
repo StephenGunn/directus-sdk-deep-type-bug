@@ -6,6 +6,7 @@
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
+    "noErrorTruncation": true,
     "defaultMaximumTruncationLength": 1000,
     "noEmit": true,
     "isolatedModules": true
