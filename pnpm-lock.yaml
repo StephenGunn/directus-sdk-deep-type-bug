@@ -11,6 +11,9 @@ importers:
       '@directus/sdk':
         specifier: ^18.0.3
         version: 18.0.3
+      typescript:
+        specifier: ^5.7.2
+        version: 5.7.2
 
 packages:
 
@@ -18,6 +21,13 @@ packages:
     resolution: {integrity: sha512-PnEDRDqr2x/DG3HZ3qxU7nFp2nW6zqJqswjii57NhriXgTz4TBUI8NmSdzQvnyHuTL9J0nedYfQGfW4v8odS1A==}
     engines: {node: '>=18.0.0'}
 
+  typescript@5.7.2:
+    resolution: {integrity: sha512-i5t66RHxDvVN40HfDd1PsEThGNnlMCMT3jMUuoh9/0TaqWevNontacunWyN02LA9/fIbEWlcHZcgTKb9QoaLfg==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+
 snapshots:
 
   '@directus/sdk@18.0.3': {}
+
+  typescript@5.7.2: {}

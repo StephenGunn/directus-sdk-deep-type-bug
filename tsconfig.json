@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "defaultMaximumTruncationLength": 1000,
+    "noEmit": true,
+    "isolatedModules": true
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
